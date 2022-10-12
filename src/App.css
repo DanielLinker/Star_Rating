@@ -5,4 +5,9 @@
 }
 
 
-
+.Position {
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+}
