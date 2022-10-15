@@ -1,49 +1,22 @@
 import React from 'react';
 import './App.css';
+import Smiles from "./components/Smiles_Directory/Smyles";
+import {Rating} from "./components/Rating_Directory/Rating";
 
 //function declaration
 function App (){
     //Gibt was aus wichtig
 
-    //Gibt zurück
+    //Gibt zurück 🖕
   return (
     <div className='position'>
       <Smiles/>
-      <Angry />
-      <TongueShower/>
+      <Rating/>
     </div>
   );
 }
 
 
-function Smiles (){
-  return (
-      <div>
-        <div>😁</div>
-        <div>😁</div>
-        <div>😁</div>
-      </div>
-  );
-}
 
-function Angry (){
-  return (
-      <div>
-        <div>😡</div>
-        <div>😡</div>
-        <div>😡</div>
-      </div>
-  );
-}
-
-function TongueShower (){
-  return (
-      <div>
-        <div>😝</div>
-        <div>😝</div>
-        <div>😝</div>
-      </div>
-  );
-}
 
 export default App;
