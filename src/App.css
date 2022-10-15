@@ -15,3 +15,7 @@
           white 2%, cyan 2%,
           cyan 4%, white 4%);
 }
+
+.star{
+    display: block;
+}
