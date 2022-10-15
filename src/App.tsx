@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 //function declaration
@@ -8,42 +7,43 @@ function App (){
 
     //Gibt zurück
   return (
-    <div className='Position'>
-        <GetStart />
-        <GetNumber />
-        <GetString />
+    <div className='position'>
+      <Smiles/>
+      <Angry />
+      <TongueShower/>
     </div>
   );
 }
 
-function GetStart (){
-    return(
-        <div>
-            <div>Start</div>
-            <div>Start</div>
-            <div>Start</div>
-        </div>
-    );
+
+function Smiles (){
+  return (
+      <div>
+        <div>😁</div>
+        <div>😁</div>
+        <div>😁</div>
+      </div>
+  );
 }
 
-function GetNumber () {
-    return (
-        <div>
-            <div>Number_1</div>
-            <div>Number_2</div>
-            <div>Number_3</div>
-        </div>
-    );
+function Angry (){
+  return (
+      <div>
+        <div>😡</div>
+        <div>😡</div>
+        <div>😡</div>
+      </div>
+  );
 }
-    function GetString (){
-        return(
-            <div>
-                <div>String</div>
-                <div>String</div>
-                <div>String</div>
-            </div>
-        );
-    }
 
+function TongueShower (){
+  return (
+      <div>
+        <div>😝</div>
+        <div>😝</div>
+        <div>😝</div>
+      </div>
+  );
+}
 
 export default App;

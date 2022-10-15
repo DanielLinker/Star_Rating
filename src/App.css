@@ -5,9 +5,8 @@
 }
 
 
-.Position {
-  margin-top: 250px;
+.position {
   display: flex;
   justify-content: space-around;
-  background-color: yellow;
+  background-color: #444441;
 }
